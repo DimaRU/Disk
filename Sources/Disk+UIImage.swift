@@ -22,6 +22,7 @@
 
 import Foundation
 
+#if !os(OSX)
 public extension Disk {
     /// Save image to disk
     ///
@@ -104,5 +105,5 @@ public extension Disk {
         }
     }
 }
-
+#endif
 
